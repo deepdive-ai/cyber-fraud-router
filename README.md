@@ -42,7 +42,7 @@ Training ran on **Nebius**; **Colab was used for inference and evaluation**. The
 | Accuracy | 91.11% |
 | Macro F1 (averages performance across categories) | 0.906 |
 | Valid single-letter responses | 90 / 90 |
-| Human-review cases correctly identified | 9 / 15 (60%) |
+| Test complaints correctly routed to the `human_review` category | 9 / 15 (60%) |
 
 These results apply to this small synthetic test set, not to real-world complaints.
 
