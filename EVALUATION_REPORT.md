@@ -14,6 +14,19 @@ A post-hoc audit of saved 64-token outputs extracted explicitly declared categor
 ## Training evidence
 Nebius job ftjob-1018422a3bb5485ab7bc506307c4c9b2 succeeded. Three epochs, LoRA rank 8, alpha 8, dropout 0; selected epoch 3 had validation loss 2.3487701. 448 adapter tensors loaded with no missing/unexpected adapter keys. Training loss is not accuracy. Downloaded checkpoint metadata reports six optimizer steps; improvements need broader validation.
 
+## Per-category performance
+
+Calculated from the saved fine-tuned predictions. Precision measures how often a predicted category was correct; recall measures how many test examples in that category were found.
+
+| Category | Precision | Recall | F1 | Test cases |
+|---|---:|---:|---:|---:|
+| authority_impersonation | 0.938 | 1.000 | 0.968 | 15 |
+| investment_scam | 1.000 | 0.933 | 0.966 | 15 |
+| job_task_scam | 0.882 | 1.000 | 0.938 | 15 |
+| shopping_scam | 0.789 | 1.000 | 0.882 | 15 |
+| credential_phishing | 0.933 | 0.933 | 0.933 | 15 |
+| human_review | 1.000 | 0.600 | 0.750 | 15 |
+
 ## Fine-tuned errors
 | ID | Expected | Predicted | Complaint |
 |---|---|---|---|
