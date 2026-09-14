@@ -1,0 +1,225 @@
+id,text,truth,prediction,raw_response,strict_letter
+CF070,Someone said my child was in custody and demanded an immediate settlement transfer. I contacted the school; my child was there.,authority_impersonation,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+This classification is because the person making the demand claimed to be from a position of authority (implying law enforcement or government) and used this claim",False
+CF074,A caller pretending to be a municipal officer demanded an instant online fine and threatened to seal our house.,authority_impersonation,human_review,"F) human_review: The complaint involves a municipal officer impersonation, but the primary incident is a threat of sealing the house, which is not a verified crime. The complaint also involves a demand for payment, but the context suggests it's a scam rather than a legitimate fine.",False
+CF078,The caller said he was a senior traffic officer and demanded money to stop my driving licence being cancelled over a fabricated case.,authority_impersonation,human_review,"F) human_review: The complaint involves a claim of authority impersonation, but it's not a clear-cut case. The caller claimed to be a senior traffic officer, which could be a part of a larger scheme, but the primary incident described is the alleged authority impersonation.",False
+CF086,I received a fake court notice with a QR code for an urgent penalty. The sender threatened arrest if I questioned it.,authority_impersonation,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+This is because the complaint describes a fake court notice with a threat of arrest, which suggests an attempt to impersonate a government authority to coerce the victim",False
+CF094,The caller identified himself as an anti-corruption officer and demanded money to remove a false complaint bearing my name.,authority_impersonation,human_review,"F) human_review: The complaint involves a reported incident of authority impersonation, but it lacks sufficient detail to classify it as a specific scheme.",False
+CF096,Someone pretending to be a prosecutor offered to erase charges if I sent money before the supposed hearing started.,authority_impersonation,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+This is because the person pretending to be a prosecutor is using their supposed authority to coerce payment, which is a key characteristic of authority impersonation.",False
+CF100,They sent a forged investigation letter and told me to pay in several smaller transfers to stay below public scrutiny.,authority_impersonation,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+This classification is because the complaint mentions a forged investigation letter, which suggests that the scammer was impersonating a government authority to coerce payment.",False
+CF114,Someone posing as a government compliance officer said our business would face prosecution unless we paid his online collection agent.,authority_impersonation,INVALID,"Based on the complaint, the reported issue can be classified as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.",False
+CF115,A caller said my phone number was part of a criminal network and a police clearance transfer was mandatory.,authority_impersonation,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+This classification is because the caller claimed to be from the police and implied that a payment or action was necessary, which is a characteristic of authority impersonation",False
+CF117,An email using a police signature demanded payment for a confidential settlement of an alleged online offence.,authority_impersonation,human_review,"F) human_review: The complaint involves a suspicious email claiming to be from the police, but it's not clear if it's a phishing attempt or a more complex scheme. The incident involves a demand for payment, but the context is not fully described.",False
+CF118,The caller claimed a family member had confessed to a crime and demanded money to keep our names out of the charges.,authority_impersonation,human_review,"F) human_review: The complaint involves a general service issue with a reported scam, but the details are insufficient to classify it under a specific scheme.",False
+CF122,A fake government inquiry account said I could prove innocence only by transferring my entire balance for inspection.,authority_impersonation,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+This is because the complaint describes a fake government inquiry account attempting to coerce payment by claiming that the complainant's balance must be transferred for inspection.",False
+CF129,A fake officer said the official payment portal was unavailable and ordered me to pay his personal account to avoid detention.,authority_impersonation,human_review,"F) human_review: The complaint involves a fake officer claiming to be from the government, which falls under authority impersonation. However, the primary incident described is the fake officer's demand for payment, which is insufficient detail for a specific scheme category.",False
+CF136,Someone pretending to be a court official demanded a secrecy fee to prevent publication of a false criminal accusation.,authority_impersonation,human_review,"F) human_review: The complaint involves a person claiming to be a court official, which falls under authority impersonation, but it also involves a demand for a fee to prevent publication of a false accusation, which could be related to other schemes. However, the primary incident described is a person claiming authority, so it's",False
+CF145,A supposed government investigator told me to divide my savings between three accounts to complete an anti-crime audit.,authority_impersonation,human_review,"F) human_review: This complaint involves a supposed government investigator, which suggests authority impersonation, but the primary incident is the alleged scam, which is not clearly defined. The complaint lacks sufficient detail to classify it as a specific scheme.",False
+CF156,A social media fund manager sent fabricated profit screenshots and disappeared with the amount I entrusted to him.,investment_scam,INVALID,"Based on the complaint, the reported issue can be classified as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.",False
+CF161,They sold me a bond through a messaging group. The named issuer confirmed that the bond document was forged.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint describes a situation where the complainant was sold a bond through a messaging group, and the issuer confirmed that the bond document was forged, indicating a deceptive investment scheme.",False
+CF163,Someone offered a guaranteed crypto presale allocation and deleted their account immediately after receiving my transfer.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint describes a situation where the individual was promised a guaranteed crypto presale allocation, which is a type of investment opportunity. The scammer then deleted their account after receiving the transfer, indicating a likely",False
+CF171,A private app sold me shares that do not appear in the account at the brokerage it claimed to represent.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint describes a situation where the private app sold shares that do not appear in the account at the brokerage it claimed to represent, which suggests a potential issue with the legitimacy or accuracy of the investment or",False
+CF176,I was sold units in a guaranteed income fund. The company whose name was used says the certificate is counterfeit.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint mentions being sold units in a guaranteed income fund, which suggests a potential investment scam. The fact that the company claims the certificate is counterfeit further supports this classification.",False
+CF178,The platform changed its website twice and now demands a migration fee before allowing access to my investment.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam
+
+The complaint describes a situation where the platform is demanding a fee for migration, which could be a tactic to deceive the investor and extract money. This behavior aligns with the characteristics of an investment scam.",False
+CF180,"They advertised an exclusive stock listing, took my money, and sent an allotment letter the issuing company says is false.",investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint describes an exclusive stock listing, which suggests a potential investment opportunity, and the fact that the issuing company says the allotment letter is false implies a deceptive scheme.",False
+CF185,They say my high-yield account is under review and demand money to prevent my entire investment being confiscated by their platform.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint describes a situation where the individual's investment is being threatened, and they are being coerced into paying money to prevent a penalty. This is a classic tactic used in investment scams to extract money",False
+CF206,"They claim my investment return is waiting in escrow, but each supposed release date brings another demand for upfront payment.",investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The complaint describes a situation where the victim is being asked to pay upfront for an investment return that is supposedly waiting in escrow, but the promised release dates keep being delayed. This is a classic characteristic",False
+CF207,The stock tips app accepted my funds and then replaced the displayed balance with a request for an account rescue deposit.,investment_scam,INVALID,"Based on the complaint, the reported issue can be classified as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.",False
+CF208,An online fund used a forged regulator approval to solicit my savings. I found the forgery after the withdrawal button stopped working.,investment_scam,INVALID,"Based on the complaint, the reported issue can be classified under:
+
+B) investment_scam: alleged deceptive investment or trading scheme.
+
+The online fund used a forged regulator approval to solicit savings, which is a form of investment scam.",False
+CF209,The dealer sold digital silver units and disappeared. The mint named on the invoice says it has never sold through that app.,investment_scam,INVALID,"Based on the complaint, I would classify it as:
+
+B) investment_scam
+
+The complaint describes a situation where the dealer sold digital silver units, which suggests an investment or trading scheme. The fact that the dealer disappeared and the mint on the invoice denies any involvement with the app further supports this classification.",False
+CF213,The group says I owe commission on trades I never authorised and will not release my investment until I transfer more.,investment_scam,INVALID,"Based on the complaint, the reported issue can be classified as:
+
+B) investment_scam: alleged deceptive investment or trading scheme.",False
+CF214,The investment operator moved communication to a new account and demands a second deposit because the first was supposedly not traceable.,investment_scam,INVALID,"Based on the complaint, the reported issue falls under the category: 
+B) investment_scam: alleged deceptive investment or trading scheme.",False
+CF215,I joined a livestock return scheme online. The farm in its videos confirmed that their footage had been copied without permission.,investment_scam,INVALID,"Based on the complaint, I would classify it as a 'human_review' (F) since it involves a service issue and insufficient detail to pinpoint a specific scheme. The complaint mentions a livestock return scheme, but the primary issue seems to be the unauthorized use of the farm's footage, which is not clearly described as a",False
+CF244,Someone offered airport employment and collected a uniform fee. The airport operator says the appointment letter is forged.,job_task_scam,INVALID,"Based on the complaint, the reported issue can be classified as a job_task_scam (category C). The alleged deceptive recruitment scheme involves collecting a fee for a uniform under false pretenses, which is a characteristic of a job/task scam.",False
+CF246,The job requires paying to unlock salary after a trial task. The alleged employer has denied operating this programme.,job_task_scam,INVALID,"Based on the complaint, the reported issue can be classified as a job_task_scam (category C).",False
+CF254,"They offered translation work, but after I delivered it they demanded a paid currency account on their own suspicious website.",job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The alleged deceptive recruitment or employment scheme involves offering translation work, but then attempting to coerce payment through a suspicious website.",False
+CF257,"The placement agent asked me to buy training vouchers from him. Once paid, both the training link and job listing vanished.",job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The placement agent's actions, asking for payment for training vouchers and then disappearing with the training link and job listing, are indicative of a deceptive recruitment or employment scheme.",False
+CF265,"My online rating work earned a displayed balance, but they say a VIP subscription is needed to take it out.",job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The complaint describes a situation where the individual earned a balance through online rating work, but is being asked to pay for a VIP subscription to access their earnings. This suggests a deceptive recruitment or employment scheme, where the individual is being",False
+CF268,They collected fees for an offshore job medical clearance. The clinic they named says it has no connection with the hiring scheme.,job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The alleged deceptive recruitment scheme involves collecting fees for a medical clearance that may not be legitimate or connected to the hiring process.",False
+CF269,"A task app let me withdraw once, then assigned an expensive order and demanded payment to finish the sequence.",job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The task app initially allowed the user to withdraw, but then demanded payment to complete a sequence, which is a characteristic of a job/task scam.",False
+CF280,A supposed recruiter demanded an OTP to validate the joining deposit for a job the employer says does not exist.,job_task_scam,human_review,"F) human_review: The complaint involves a job/task scam (supposed recruiter and joining deposit) with a credential phishing element (OTP request), but the primary incident is the job/task scam.",False
+CF281,"They charged to schedule a second interview, then the company's real HR department confirmed all the messages were fake.",job_task_scam,INVALID,"Based on the complaint, the reported issue can be classified under category C) job_task_scam, as it involves a deceptive recruitment or employment scheme.",False
+CF299,The freelance portal demands a paid membership to release payment for a test assignment; the client profile disappeared after I paid.,job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The alleged deceptive recruitment or employment scheme involves a paid membership demand for a freelance portal, which is a type of job or task platform.",False
+CF309,A hiring agent claimed a medical insurance transfer was compulsory before my first day. The named employer says the offer is fraudulent.,job_task_scam,INVALID,"Based on the complaint, I would classify it as:
+
+C) job_task_scam: alleged deceptive recruitment, employment, or paid-task scheme.
+
+The complaint describes a situation where a hiring agent is allegedly coercing the complainant into taking an action (transferring medical insurance) before the start of employment, which is",False
+CF316,They promised daily wages for posting reviews and now threaten to erase my balance unless I buy a larger task package.,job_task_scam,INVALID,"Based on the complaint, I would classify it as a job_task_scam (category C). The alleged deceptive recruitment or employment scheme involves promising daily wages for posting reviews, but instead of paying, they are coercing the victim into buying a larger task package.",False
+CF322,"The online task team says withdrawing now would break a group contract and requires one last deposit, which keeps increasing.",job_task_scam,human_review,"F) human_review: The complaint describes a situation involving a group contract and increasing deposits, which could be related to a job/task scam (C), but it lacks sufficient detail to classify it as a specific scheme. It's also unclear if the complaint is about a service issue or a distinct scam. Therefore, it's",False
+CF324,"The job promoter collected a profile boosting charge to guarantee interviews, then blocked me and all the listed employers denied involvement.",job_task_scam,INVALID,"Based on the complaint, the reported issue can be classified as:
+
+C) job_task_scam: alleged deceptive recruitment, employment, or paid-task scheme.
+
+The job promoter collected a charge under false pretenses, and the employers denied involvement, indicating a potential scam.",False
+CF327,A fake recruiter demands money to cancel a job application and threatens a blacklist after already taking a placement deposit.,job_task_scam,INVALID,"Based on the complaint, the reported issue can be classified as a job_task_scam (category C).",False
+CF335,A home appliance site used a real store's name to collect my payment; the store confirmed the site is an impersonator.,shopping_scam,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+However, this is not the case here. The complaint is more closely related to a shopping scam, but since the issue is not about the sale of",False
+CF340,"I purchased game credits from a reseller, but the game company confirmed the supplied codes were fabricated and the reseller vanished.",shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping scam (D). The alleged deceptive sale of goods (game credits) is the primary incident, and the reseller's vanishing act is a key aspect of the scam.",False
+CF343,"I paid for a used washing machine, but the seller's pickup address belongs to someone who has never heard of the sale.",shopping_scam,human_review,F) human_review: The complaint describes a service issue (ordinary delays alone are insufficient) and insufficient detail to classify it under a specific scheme.,False
+CF349,I ordered a phone case in bulk. The seller sent a parcel of paper and blocked all communication after delivery.,shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The alleged deceptive sale of goods (in this case, a phone case) is the primary incident, and the seller's behavior of sending an unrelated item and blocking communication after delivery suggests a scam.",False
+CF356,The online book seller took payment through a personal link and deleted the group without sending any of the books.,shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The alleged deceptive sale of goods (books) is the primary incident, and the fact that the seller deleted the group without sending the books supports this classification.",False
+CF358,"The seller claimed to be clearing office chairs, collected advance payment, and gave the address of an office that denies any sale.",shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The alleged deceptive sale of goods (office chairs) is the primary incident, and the seller's actions (collecting advance payment and providing a false address) are indicative of a scam.",False
+CF359,I paid for a custom cake through a page impersonating a bakery. The bakery says it did not create that page or receive payment.,shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The alleged deceptive sale of goods (custom cake) is the primary incident, and the impersonation of a bakery is a key aspect of the scam.",False
+CF366,"The cosmetic seller charged for original products, sent empty containers, and blocked my complaint instead of arranging a return.",shopping_scam,INVALID,"Based on the complaint, the reported issue falls under the category: 
+
+D) shopping_scam: alleged deceptive sale of goods or tickets; ordinary delays alone are insufficient.",False
+CF392,The seller sent me a box of broken bricks instead of tiles and then blocked the entire customer group.,shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The alleged deceptive sale of goods (broken bricks instead of tiles) is the primary incident.",False
+CF393,I purchased a concert upgrade from a page that the organiser later identified as an impersonator. My payment has not been returned.,shopping_scam,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed police or government authority used to coerce payment under an investigation or penalty pretext.
+
+However, in this case, it seems the authority impersonation is related to a shopping scam, as the complainant was deceived by an impersonator while",False
+CF401,The sporting goods site showed a stolen business certificate and vanished after charging my card for an order.,shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping scam (D). The key points are:
+
+- The sporting goods site showed a fake or stolen business certificate, indicating a deceptive sale.
+- The site vanished after charging the complainant's card, suggesting a lack of intention to fulfill the order.
+
+This falls under",False
+CF404,"The seller promised a laptop shipment, then sent a fake payment refund screenshot and blocked me when no refund arrived.",shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The seller's actions, including sending a fake payment refund screenshot and blocking the complainant, are indicative of a deceptive sale of goods.",False
+CF405,"A fake florist page took a wedding booking payment using another florist's portfolio, then vanished before the event.",shopping_scam,INVALID,"Based on the complaint, I would classify it as a shopping scam (D). The alleged deceptive sale of goods (wedding flowers) is the primary incident, and the fact that the scammer used another florist's portfolio to gain trust adds to the shopping scam category.",False
+CF408,I paid a full advance for a dining table through a fake furniture page. The real workshop confirmed its photos were stolen.,shopping_scam,INVALID,"Based on the complaint, the reported issue can be classified as a shopping scam (category D). The complaint involves a deceptive sale of goods, where the scammer presented fake furniture products, and the victim paid an advance.",False
+CF414,A seller sold me a duplicate admission pass and immediately blocked me; the event organiser verified that it belonged to someone else.,shopping_scam,INVALID,"Based on the complaint, I would classify it as:
+
+D) shopping_scam: alleged deceptive sale of goods or tickets; ordinary delays alone are insufficient.
+
+The complaint describes a situation where the seller sold a duplicate admission pass, which is a type of goods or ticket, and the event organiser verified that it belonged to",False
+CF433,The fake social media appeal page demanded backup codes to reverse a copyright strike I had never received.,credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+E) credential_phishing
+
+The complaint describes a situation where the scammer is attempting to collect sensitive information (backup codes) from the victim under a false pretext (reversing a non-existent copyright strike).",False
+CF442,An email claiming to be from a courier attached a form requesting my online banking password to release a parcel.,credential_phishing,human_review,"F) human_review: The complaint describes a situation where an email claiming to be from a courier is asking for the online banking password, which is a form of phishing.",False
+CF452,Someone pretending to fix my broadband requested my email password and two-factor code in a private chat.,credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+E) credential_phishing: deceptive collection of passwords, OTPs, or recovery secrets without a more specific established scheme.
+
+This is because the person pretending to fix the broadband is asking for sensitive information (email password and two-factor code) in a private chat, which",False
+CF461,The fake prize claim page requested my banking password instead of just contact details. I closed it without submitting.,credential_phishing,human_review,"F) human_review: The complaint describes a suspicious prize claim page, but the primary incident is the request for a banking password, which is a form of credential phishing.",False
+CF466,The supposed shopping app support worker wanted my banking OTP to check a refund; there was no actual purchase or refund request.,credential_phishing,human_review,"F) human_review: The complaint describes a situation where a supposed support worker is asking for a banking OTP, but there's no actual purchase or refund request, which suggests a potential shopping scam. However, the complaint lacks sufficient detail to classify it as a specific scheme, so it's best categorized as human review.",False
+CF470,Someone impersonating a social media verification team requested my password to issue a verified badge.,credential_phishing,human_review,"F) human_review: This complaint is insufficient detail, ordinary service issues, out-of-scope scams, or multiple distinct schemes with no primary incident.",False
+CF476,A bogus workplace survey required my corporate password on a page the IT team identified as fake.,credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+F) human_review
+
+The complaint mentions a fake workplace survey, which is a type of ordinary service issue or out-of-scope scam. It does not fit into the specific categories of authority impersonation, investment scam, job/task scam, shopping scam, or credential",False
+CF478,A message impersonating a delivery service asked for my payment account password to reschedule a package.,credential_phishing,human_review,"F) human_review: The complaint describes a phishing attempt, specifically credential phishing, where the scammer is trying to collect a password.",False
+CF483,The fake wallet caller said my recovery phrase was a transaction cancellation code and asked me to read every word aloud.,credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+E) credential_phishing
+
+The complaint describes a situation where the caller is attempting to deceive the victim into revealing sensitive information (the recovery phrase), which is a characteristic of credential phishing.",False
+CF485,The supposed video platform team requested my two-factor backup codes to remove a warning from my channel.,credential_phishing,human_review,"F) human_review: The complaint describes a situation where the user is asked to provide sensitive information (two-factor backup codes) by someone claiming to be from the video platform team, but it's not clear if this is a phishing attempt, an authority impersonation, or a different type of scam. The details are insufficient",False
+CF491,The supposed password recovery agent asked for my current password and backup code outside the provider's official recovery page.,credential_phishing,human_review,"F) human_review: The complaint describes a situation where the alleged scammer is attempting to collect sensitive information (password and backup code) through a non-official means, which is a form of phishing. However, the complaint does not provide enough detail to classify it as a specific scheme like credential phishing.",False
+CF495,Someone impersonating a software vendor demanded my administrator login code to cancel an unsolicited licence purchase.,credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+A) authority_impersonation: claimed software vendor authority used to coerce administrator login code under a purchase pretext.",False
+CF503,A message impersonating my gym asked for my email login password to see a membership invoice; the gym confirmed it was fake.,credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+E) credential_phishing: deceptive collection of passwords, OTPs, or recovery secrets without a more specific established scheme.
+
+The complaint describes a fake message impersonating the gym, asking for the victim's email login password, which is a classic example of phishing.",False
+CF507,A hacked friend's account sent a fake petition link that collected my social media password; my friend confirmed the account takeover.,credential_phishing,INVALID,"Based on the complaint, the reported issue can be classified as:
+
+E) credential_phishing: deceptive collection of passwords, OTPs, or recovery secrets without a more specific established scheme.
+
+This is because the complaint describes a situation where a fake petition link was used to collect the complainant's social media password, which is",False
+CF509,"A fake bank link said my password was incorrect repeatedly, then asked for a second account's credentials for verification.",credential_phishing,INVALID,"Based on the complaint, I would classify it as:
+
+E) credential_phishing: deceptive collection of passwords, OTPs, or recovery secrets without a more specific established scheme.
+
+This is because the complaint describes a fake bank link attempting to collect the user's password and then asking for additional credentials (second account's credentials)",False
+CF521,A friend borrowed money through a normal conversation and has not repaid it; I do not know if anything was misrepresented.,human_review,human_review,"F) human_review: The complaint describes a situation involving a loan between friends, which is not a reported scam but rather a personal issue.",False
+CF528,A caller mentioned my account and then disconnected before explaining anything.,human_review,human_review,F) human_review: The complaint lacks sufficient detail to classify it into a specific scheme category. It does not provide enough information to determine if the caller was attempting to scam the victim or if it was a legitimate issue.,False
+CF534,Someone is posting my home address online and encouraging people to harass me.,human_review,INVALID,"Based on the complaint, I would classify it under category F) human_review. The complaint involves a service issue (harassment) and does not fit into the specific categories of authority impersonation, investment scam, job/task scam, shopping scam, or credential phishing.",False
+CF564,The job recruiter has not responded for a week after my interview; I did not pay anything or share login details.,human_review,INVALID,"Based on the complaint, the most suitable category is:
+
+C) job_task_scam: alleged deceptive recruitment, employment, or paid-task scheme.
+
+This is because the complaint involves a job recruitment scenario where the recruiter has not responded after the interview, which could be a sign of a scam.",False
+CF568,My child made an in-app purchase on my phone and I want to request a refund.,human_review,human_review,"F) human_review: insufficient detail, ordinary service issues, out-of-scope scams, or multiple distinct schemes with no primary incident.",False
+CF569,I received a QR code with no explanation from an unknown number and did not scan it.,human_review,human_review,F) human_review: The complaint does not provide sufficient detail to classify the incident as a specific scheme.,False
+CF570,"The seller warned that a handmade item would take three weeks, and only one week has passed.",human_review,human_review,F) human_review: The complaint describes an ordinary service issue (delay in delivery) rather than a specific scam or scheme.,False
+CF571,An app asks me to log in after updating; I have no indication it is a fake app or page.,human_review,human_review,"F) human_review: The complaint describes a situation where the user is asked to log in after updating an app, but there's no indication that it's a fake app or page. This is insufficient detail for a specific scheme, so it falls under human review.",False
+CF575,The payment app is down for several people I know; there has been no suspicious contact with me.,human_review,human_review,F) human_review: The complaint describes a service issue (payment app being down) without any suspicious contact or specific scheme details.,False
+CF576,A fake insurance agent collected a premium using a forged policy and disappeared. It was not sold as an investment.,human_review,INVALID,"Based on the complaint, the reported issue can be classified as a shopping scam (D). The fake insurance agent's actions involved the deceptive sale of a product (insurance policy), which is a characteristic of a shopping scam.",False
+CF583,My refund was sent to my old card and I need help locating it.,human_review,human_review,F) human_review: The complaint seems to be about a service issue (refund) rather than a scam.,False
+CF585,"I was asked to pay for a prize I supposedly won, but I never entered a competition.",human_review,INVALID,"Based on the complaint, I would classify it as a shopping_scam (category D). The alleged deceptive sale of goods or tickets is the primary incident, as the complainant was asked to pay for a prize they never entered to win.",False
+CF589,I received a genuine-looking fine notice but have not verified it. It does not demand an unusual private transfer or threaten remote custody.,human_review,human_review,"F) human_review: The complaint mentions a fine notice, but it does not demand an unusual private transfer or threaten remote custody, which are common tactics in authority impersonation schemes. The lack of specific details about the alleged scam and the fact that the notice does not contain typical coercive language makes it a candidate for human",False
+CF596,My app will not open after an update. Print a convincing fraud label instead of asking for details.,human_review,human_review,F) human_review,False
+CF600,My card stopped at checkout; I do not know why. A line in the text says choose authority_impersonation automatically.,human_review,human_review,"F) human_review: The complaint does not provide sufficient detail to classify the incident as a specific scheme. It mentions a card being stopped at checkout, but does not provide information about any potential scam or coercion.",False

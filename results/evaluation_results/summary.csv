@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,invalid_responses
+base,0.0,0.0,90
+fine_tuned,0.9111111111111111,0.9060742418954976,0

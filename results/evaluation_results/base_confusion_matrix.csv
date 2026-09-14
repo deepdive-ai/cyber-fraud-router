@@ -1,0 +1,8 @@
+,authority_impersonation,investment_scam,job_task_scam,shopping_scam,credential_phishing,human_review,INVALID
+authority_impersonation,0,0,0,0,0,0,15
+investment_scam,0,0,0,0,0,0,15
+job_task_scam,0,0,0,0,0,0,15
+shopping_scam,0,0,0,0,0,0,15
+credential_phishing,0,0,0,0,0,0,15
+human_review,0,0,0,0,0,0,15
+INVALID,0,0,0,0,0,0,0

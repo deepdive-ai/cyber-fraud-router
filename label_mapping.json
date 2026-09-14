@@ -1,0 +1,8 @@
+{
+  "A": "authority_impersonation",
+  "B": "investment_scam",
+  "C": "job_task_scam",
+  "D": "shopping_scam",
+  "E": "credential_phishing",
+  "F": "human_review"
+}

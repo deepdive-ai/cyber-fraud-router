@@ -1,0 +1,57 @@
+{
+  "total": 600,
+  "counts": {
+    "authority_impersonation": 100,
+    "investment_scam": 100,
+    "job_task_scam": 100,
+    "shopping_scam": 100,
+    "credential_phishing": 100,
+    "human_review": 100
+  },
+  "human_reviewed_pilot": 60,
+  "new_not_human_reviewed": 540,
+  "sample_review_count": 48,
+  "exact_duplicates": 0,
+  "near_duplicate_pairs": [
+    {
+      "first": "CF048",
+      "second": "CF447",
+      "jaccard": 0.5,
+      "sequence_similarity": 0.55,
+      "same_label": true
+    },
+    {
+      "first": "CF421",
+      "second": "CF447",
+      "jaccard": 0.429,
+      "sequence_similarity": 0.526,
+      "same_label": true
+    },
+    {
+      "first": "CF055",
+      "second": "CF522",
+      "jaccard": 0.462,
+      "sequence_similarity": 0.617,
+      "same_label": true
+    },
+    {
+      "first": "CF051",
+      "second": "CF546",
+      "jaccard": 0.417,
+      "sequence_similarity": 0.603,
+      "same_label": true
+    }
+  ],
+  "scenario_groups": 596,
+  "splits": {
+    "train": 420,
+    "validation": 90,
+    "test": 90
+  },
+  "cross_split_flagged_pairs": 0,
+  "training_executed": false,
+  "limitations": "Near-duplicate screening is lexical, not proof of semantic independence. All data is synthetic, English-only, and reflects a six-category prototype taxonomy. Human review of new examples is pending.",
+  "master_sha256": "6b309a484a7a1649c825127eee86cc81fcf2cd65f280eed705b8cd1dd046409e",
+  "notebook_python_syntax": "passed",
+  "gpu_execution": "not_run"
+}
