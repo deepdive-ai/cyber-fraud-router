@@ -4,24 +4,14 @@ Llama-3.1-8B-Instruct fine-tuned with LoRA on Nebius; evaluated on Google Colab 
 
 **91.11% accuracy, 0.906 macro-F1, 100% single-letter compliance on 90 held-out synthetic complaints.** Read EVALUATION_REPORT.md for the baseline parser limitation, exploratory response audit, and human-review failures.
 
-## Try it in Colab
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepdive-ai/cyber-fraud-router/blob/main/Cyber_Fraud_Demo.ipynb)
-
-Open the demo, select a **T4 GPU**, and run the cells in order. Sign in with your own Hugging Face read token after obtaining Llama access. The notebook downloads the adapter automatically and provides a complaint-entry box. No paid inference API is used; free Colab GPU availability is not guaranteed. Initial model loading can take 10–20 minutes.
-
-The demo uses the original evaluated loading procedure. Its new interface has been statically checked; a fresh end-to-end Colab run has not yet been verified. The executed evaluation notebook below contains the completed model run and results.
-
 ## Included
 - Dataset splits and conversational JSONL training inputs
 - Original Nebius adapter and tokenizer files
 - Raw predictions, confusion matrices, and both original experiment summaries
-- Evaluation report and suggested demo narration
+- Evaluation report
 
-## Add before submission
-- Add your Loom video URL below.
+## Executed notebook
 
-Demo video: ADD YOUR LOOM URL
 Executed notebook: [Cyber_Fraud_Fine_Tuning.ipynb](Cyber_Fraud_Fine_Tuning.ipynb)
 
 ## Successful notebook runs
