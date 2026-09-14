@@ -12,10 +12,19 @@ Llama-3.1-8B-Instruct fine-tuned with LoRA on Nebius; evaluated on Google Colab 
 
 ## Add before submission
 - Add your Loom video URL below.
-- Include a screenshot of the successful training job or notebook evaluation.
 
 Demo video: ADD YOUR LOOM URL
 Executed notebook: [Cyber_Fraud_Fine_Tuning.ipynb](Cyber_Fraud_Fine_Tuning.ipynb)
+
+## Successful notebook runs
+
+Fine-tuned model evaluation on 90 held-out synthetic complaints: **91.11% accuracy, 0.906 macro F1, and zero invalid responses**. Base-model scores in this table are affected by output-format compliance; see [the evaluation report](EVALUATION_REPORT.md) for the exploratory response audit.
+
+![Completed notebook evaluation](screenshots/evaluation-results.png)
+
+The fine-tuned model correctly classifies a fake recruitment complaint as **C — job_task_scam**.
+
+![Successful complaint classification](screenshots/successful-prediction.png)
 
 ## Running
 Use the executed notebook for the actual installation, authentication, base model loading, adapter key conversion, inference, and evaluation steps. Access to meta-llama/Llama-3.1-8B-Instruct is required through your own Hugging Face account. Do not include access tokens. The downloaded Nebius adapter keys require the base_model.model. prefix when loading through PEFT; the executed notebook contains that conversion and a missing-key check.
