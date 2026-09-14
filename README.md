@@ -24,6 +24,8 @@ The fine-tuned model correctly classifies a fake recruitment complaint as **C â€
 
 ![Successful complaint classification](screenshots/successful-prediction.png)
 
+Additional evidence: [model loading, prediction, and initial evaluation screenshots](screenshots/from-google-doc/README.md).
+
 ## Running
 Use the executed notebook for the actual installation, authentication, base model loading, adapter key conversion, inference, and evaluation steps. Access to meta-llama/Llama-3.1-8B-Instruct is required through your own Hugging Face account. Do not include access tokens. The downloaded Nebius adapter keys require the base_model.model. prefix when loading through PEFT; the executed notebook contains that conversion and a missing-key check.
 
