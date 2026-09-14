@@ -1,8 +1,14 @@
 # Cyber-Fraud Complaint Router
 
+![Cyber-Fraud Complaint Router: workflow, manual review, and synthetic test results](assets/cyber-fraud-poster.png)
+
 Llama-3.1-8B-Instruct fine-tuned with LoRA on Nebius; evaluated on Google Colab T4 with 4-bit NF4 inference.
 
 **91.11% accuracy, 0.906 macro-F1, 100% single-letter compliance on 90 held-out synthetic complaints.** Read EVALUATION_REPORT.md for the baseline parser limitation, exploratory response audit, and human-review failures.
+
+## Data preparation and manual review
+
+Gnaneshwari Pinna manually reviewed around 100 synthetic complaint cases before fine-tuning. The full dataset contains 600 synthetic complaints across six balanced categories, split into 420 training, 90 validation, and 90 held-out test cases. Manual review covered a subset of the dataset; the complete dataset was not independently human-validated. Fine-tuning used the 420 training cases.
 
 ## Included
 - Dataset splits and conversational JSONL training inputs

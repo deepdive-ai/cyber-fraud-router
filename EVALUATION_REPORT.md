@@ -4,7 +4,7 @@
 Fine-tuned Llama-3.1-8B-Instruct with LoRA classified **82/90 synthetic held-out complaints correctly (91.11%)**, macro-F1 **0.906074**. All 90 responses followed the required single-letter A–F format.
 
 ## Evaluation protocol
-600 synthetic complaints, six balanced categories. Training: 420; validation: 90; test: 90. The user reviewed the pilot and selected review cases; do not describe the entire dataset as independently human-validated. Baseline and fine-tuned runs used the same system prompt, saved chat template, test inputs, deterministic generation, and 4-bit NF4 base weights on a Colab T4. Baseline used the same model with the adapter disabled.
+600 synthetic complaints, six balanced categories. Training: 420; validation: 90; test: 90. Gnaneshwari Pinna manually reviewed around 100 synthetic cases before fine-tuning, including pilot and selected review cases. This review covered a subset; the entire dataset was not independently human-validated. Baseline and fine-tuned runs used the same system prompt, saved chat template, test inputs, deterministic generation, and 4-bit NF4 base weights on a Colab T4. Baseline used the same model with the adapter disabled.
 
 ## Baseline scoring caveat
 The first experiment allowed 8 output tokens and required an exact letter. All baseline outputs failed that format; its 0% score is not a measure of pure category recognition. A second experiment allowed 64 tokens and accepted an initial category letter: base accuracy 12.22%, macro-F1 0.083333, 61 parser-invalid responses; fine-tuned accuracy 91.11%, macro-F1 0.906074, no invalid responses. Baseline single-letter compliance remained 0/90.
