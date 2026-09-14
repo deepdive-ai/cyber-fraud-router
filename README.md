@@ -11,12 +11,11 @@ Llama-3.1-8B-Instruct fine-tuned with LoRA on Nebius; evaluated on Google Colab 
 - Evaluation report and suggested demo narration
 
 ## Add before submission
-- Export your executed Colab notebook using File → Download → Download .ipynb and add it here. The earlier Qwen draft does not reproduce this Llama run.
 - Add your Loom video URL below.
 - Include a screenshot of the successful training job or notebook evaluation.
 
 Demo video: ADD YOUR LOOM URL
-Executed notebook: ADD YOUR DOWNLOADED NOTEBOOK
+Executed notebook: [Cyber_Fraud_Fine_Tuning.ipynb](Cyber_Fraud_Fine_Tuning.ipynb)
 
 ## Running
 Use the executed notebook for the actual installation, authentication, base model loading, adapter key conversion, inference, and evaluation steps. Access to meta-llama/Llama-3.1-8B-Instruct is required through your own Hugging Face account. Do not include access tokens. The downloaded Nebius adapter keys require the base_model.model. prefix when loading through PEFT; the executed notebook contains that conversion and a missing-key check.
